@@ -1,58 +1,8 @@
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# Package Files / Build output
-target/
-bin/
-build/
-out/
-dist/
-
-# Virtual environments / temporary
-*.tmp
-*.bak
-*.swp
-*~
-
-# IntelliJ IDEA
-.idea/
+/target/
+/.env
+/.idea/
+/.classpath
+/.project
+/.settings/
 *.iml
-*.iws
-*.ipr
-out/
-
-# Eclipse
-.classpath
-.project
-.settings/
-
-# VS Code
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# NetBeans
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Keep .gitkeep files everywhere
-!.gitkeep
-
+*.log
